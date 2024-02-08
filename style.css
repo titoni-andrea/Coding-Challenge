@@ -1,0 +1,83 @@
+body {
+    margin: 0px;
+    background-image: url(background.jpg);
+    width: 100%;
+}
+
+#container {
+    width: 800px;
+    height: 580px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 70px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+header img {
+    width: 200px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.main-title {
+    color: chartreuse;
+    margin: auto;
+}
+
+#menu {
+    width: 790px;
+    height: 40px;
+    background-color: chartreuse;
+    border-radius: 2px;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin-left: 5px;
+}
+
+.monopattino {
+    color: white;
+    margin-top: 20px;
+}
+
+.monopattino p {
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+h3 {
+    display: inline;
+}
+
+.carica-gino {
+    width: 350px;
+    height: 27px;
+    background-color: orange;
+    border-radius: 5px;
+}
+
+.carica-mike {
+    width: 600px;
+    height: 27px;
+    background-color: rgb(33, 200, 33);
+    border-radius: 5px;
+}
+
+.carica-fede {
+    width: 150px;
+    height: 27px;
+    background-color: rgb(200, 58, 58);
+    border-radius: 5px;
+}
